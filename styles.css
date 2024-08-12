@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    margin-top: 5px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+#location {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.highlight {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.highlight img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.team-member, .gallery-item {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.team-member img, .gallery-item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+#mission, #values, #team {
+    margin-top: 20px;
+}
+
+#values ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#values ul li {
+    background-color: #e4e4e4;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
